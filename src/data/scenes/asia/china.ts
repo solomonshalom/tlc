@@ -22,7 +22,7 @@ export default {
 					videoID: 'tMzCwwvHwN0',
 					offset: { start: 86 },
 					tags: [Tags.night],
-					suggestedTrack: genres.classical.stations.chinese
+					suggestedTrack: genres.classical.stations.piano
 				}
 			]
 		},

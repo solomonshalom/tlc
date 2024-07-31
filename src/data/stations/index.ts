@@ -2,7 +2,7 @@ import type { Station } from '$lib/types';
 import { objectify } from 'radash';
 
 import { classical } from './classical';
-import { electronic } from './electronic';
+
 import { jazz } from './jazz';
 import { lofi } from './lofi';
 import { pop } from './pop';
@@ -12,7 +12,6 @@ export const genres = {
 	lofi,
 	classical,
 	jazz,
-	electronic,
 	pop,
 	rnb
 };

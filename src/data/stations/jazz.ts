@@ -11,9 +11,9 @@ export const jazz = {
 			live: true
 		},
 		coffee: {
-			displayName: 'Coffee Jazz Music Radio',
-			name: 'Coffee Jazz Music - Chill Out Lounge Jazz Music Radio - 24/7 Live Stream - Slow Jazz',
-			trackID: 'fEvM-OUbaKs',
+			displayName: 'Christian Coffee Jazz',
+			name: 'Christian Cafe Music Vol. 1 (playlist to study, meditate, and chill)',
+			trackID: '0h8kqSti594',
 			live: true
 		},
 		work: {

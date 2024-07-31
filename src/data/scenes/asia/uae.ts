@@ -19,7 +19,7 @@ export default {
 			videoID: 'TE2tfavIo3E',
 			offset: { start: 30 },
 			tags: [Tags.evening, Tags.night],
-			suggestedTrack: genres.electronic.stations.synthwave
+			suggestedTrack: genres.random.stations.randomtrack
 		}
 	]
 } satisfies Country;

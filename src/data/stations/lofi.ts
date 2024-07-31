@@ -4,41 +4,35 @@ export const lofi = {
 	name: 'Lofi',
 	emoji: 'hot-beverage',
 	stations: {
-		bollywood: {
-			displayName: 'Bollywood Lofi Radio',
-			name: 'Hindi Lofi 🎵 | Chill n Relax | 24/7 Bollywood Radio',
-			trackID: 'RRb5XV993W0',
+		afro: {
+			displayName: '24/7 Chill Afro Soul/Gospel instrumentals',
+			name: '24/7 Chill Afro Soul/Gospel instrumentals',
+			trackID: 'p6_D5I4IxdA',
 			live: true
 		},
 		sleep: {
-			displayName: 'Lofi Sleep & Rain Radio',
-			name: '24/7 - lofi sleep, lofi rain💤 beats to relax at night - music for insomnia, anxiety, peaceful dreams',
-			trackID: 'yOKVwLGSBYE',
-			live: true
+			displayName: '[chill instrumental worship] 🙏🏻',
+			name: 'Best of Christian Lofi 🙏🏽 [chill instrumental worship] 🙏🏻',
+			trackID: 'yaTEX4bXiZc',
+			live: false
 		},
 		coffeeShop: {
-			displayName: 'Coffee Shop Radio',
-			name: 'Coffee Shop Radio ☕ - 24/7 lofi & jazzy hip-hop beats',
-			trackID: 'lP26UCnoH9s',
-			live: true
+			displayName: 'Christian Coffee Vibes',
+			name: 'Christian lofi beats to study/relax + prayers for peace',
+			trackID: 'NKdJ-xV-p_g',
+			live: false
 		},
 		chillHop: {
-			displayName: 'ChillHop Radio',
-			name: 'Chillhop Radio - jazzy & lofi hip hop beats 🐾',
-			trackID: '5yx6BWlEVcY',
+			displayName: 'Christian ChillHop Radio 24/7',
+			name: 'Christian Lofi radio 24/7~study, pray, sleep, relax~Yoni Charis',
+			trackID: 'qcSYp34NRU4',
 			live: true
 		},
 		girl: {
-			displayName: 'Lofi Girl Radio: Beats to Study/Relax To',
-			name: 'lofi hip hop radio 📚 - beats to relax/study to',
-			trackID: 'jfKfPfyJRdk',
+			displayName: 'Lofi Gospel Radio: Beats to Study/Relax To',
+			name: '24/7 Christian lofi radio~ study, work, productivity, relax~Yoni Charis',
+			trackID: 'YJmGR2tD0k',
 			live: true
-		},
-		christmas: {
-			name: 'Lofi Christmas Radio',
-			trackID: 'ask1B-m26aU',
-			live: true,
-			hidden: true
 		}
 	}
 } satisfies Genre;

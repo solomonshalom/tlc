@@ -29,7 +29,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: '_gJe9JPgwLM',
 					offset: { start: 30 },
-					suggestedTrack: genres.pop.stations.hits
+					suggestedTrack: genres.random.stationsrandomtrack
 				},
 				{
 					name: 'Hollywood',
@@ -44,7 +44,7 @@ export default {
 					videoID: 'p_dYvmis0uo',
 					offset: { start: 30 },
 					tags: [Tags.day],
-					suggestedTrack: genres.electronic.stations.tropicalHouse
+					suggestedTrack: genres.random.stations.randomtrack
 				},
 				{
 					name: 'Palo Alto',
@@ -78,7 +78,7 @@ export default {
 					videoID: 'Cod_ggrs69U',
 					offset: { start: 48 },
 					tags: [Tags.night],
-					suggestedTrack: genres.electronic.stations.synthwave
+					suggestedTrack: genres.random.stations.randomtrack
 				},
 				{
 					name: 'Palm Beach',
@@ -86,7 +86,7 @@ export default {
 					videoID: 'znNVVV2uezc',
 					offset: { start: 30 },
 					tags: [Tags.day],
-					suggestedTrack: genres.pop.stations.oldies
+					suggestedTrack: genres.random.stationsrandomtrack
 				}
 			]
 		},
@@ -105,7 +105,7 @@ export default {
 					type: SceneTypes.drive,
 					videoID: '-GSHhsSPcdo',
 					offset: { start: 40 },
-					suggestedTrack: genres.electronic.stations.tropicalHouse
+					suggestedTrack: genres.random.stations.randomtrack
 				}
 			]
 		},
@@ -125,7 +125,7 @@ export default {
 					videoID: '9Prtp_eNUiI',
 					offset: { start: 10 },
 					tags: [Tags.night],
-					suggestedTrack: genres.rnb.stations.rnb
+					suggestedTrack: genres.rnb.stations.sondae
 				}
 			]
 		},
@@ -224,7 +224,7 @@ export default {
 					videoID: 'HZaLvgP-R8E',
 					offset: { start: 30 },
 					tags: [Tags.night],
-					suggestedTrack: genres.electronic.stations.synthwave
+					suggestedTrack: genres.random.stations.randomtrack
 				}
 			]
 		},
@@ -255,7 +255,7 @@ export default {
 							videoID: 'UPrPATfWJ2g',
 							offset: { start: 50 },
 							tags: [Tags.night],
-							suggestedTrack: genres.electronic.stations.vaporfunk
+							suggestedTrack: genres.random.stations.randomtrack
 						}
 					]
 				},
