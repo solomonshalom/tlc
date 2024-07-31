@@ -5,7 +5,7 @@
 	import ToolbarButton from './ToolbarButton.svelte';
 </script>
 
-{#i IS_DECEMBER}
+{#if IS_DECEMBER}
 	<ToolbarButton
 		class="text-green-200 !opacity-100"
 		variant="full"
