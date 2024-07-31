@@ -13,7 +13,7 @@ export default {
 			videoID: 'P8Uh9f0EaU8',
 			offset: { start: 60 },
 			tags: [Tags.day],
-			suggestedTrack: genres.pop.stations.chinese
+			suggestedTrack: genres.random.stations.randomtrack
 		},
 		{
 			name: 'Taipei',

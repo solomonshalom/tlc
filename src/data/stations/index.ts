@@ -5,14 +5,14 @@ import { classical } from './classical';
 
 import { jazz } from './jazz';
 import { lofi } from './lofi';
-import { pop } from './pop';
+import { random } from './random';
 import { rnb } from './rnb';
 
 export const genres = {
 	lofi,
 	classical,
 	jazz,
-	pop,
+	random,
 	rnb
 };
 

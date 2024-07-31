@@ -25,7 +25,7 @@ export default {
 			name: 'Mexico City',
 			type: SceneTypes.drive,
 			videoID: 'JCXH_WyC8A4',
-			suggestedTrack: genres.pop.stations.spanish,
+			suggestedTrack: genres.random.stations.randomtrack,
 			tags: [Tags.evening, Tags.night]
 		}
 	]

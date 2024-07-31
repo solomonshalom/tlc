@@ -33,7 +33,7 @@ export default {
 			videoID: '7a-GBnXz3i8',
 			tags: [Tags.day],
 			offset: { start: 60 },
-			suggestedTrack: genres.pop.stations.cityPop
+			suggestedTrack: genres.random.stations.randomtrack
 		},
 		{
 			name: 'Tokyo',
