@@ -37,7 +37,7 @@
 	const siteTitle = 'The Loft Cafe';
 
 	const siteDescription =
-		'Take leisurely walks and drives around the world while chilling to lofi music 🎶';
+		'Praise God, Take leisurely walks and drives around the world while chilling to beautiful, christian tracks 🎶';
 
 	const siteURL = 'https://www.tlc.solomonlijo.com';
 
@@ -53,7 +53,7 @@
 </svelte:head>
 
 <MetaTags
-	title="The Loft Cafe | Aesthetic walks and drives from around the world"
+	title="The Loft Cafe | Worship Songs, Aesthetic walks and drives from around the world"
 	description={siteDescription}
 	canonical={siteURL}
 	openGraph={{
