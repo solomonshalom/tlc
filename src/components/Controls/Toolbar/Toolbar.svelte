@@ -37,7 +37,7 @@
 
 	<CopyToClipboard />
 
-	<ToolbarButton icon="mdi:cat" action="https://kittycat.cafe" title="Visit KittyCat Cafe" />
+	<ToolbarButton icon="mdi:cat" action="https://theloft.solomonlijo.com" title="Visit The Loft" />
 
 	{#if IS_DECEMBER}
 		<ToolbarButton icon="mdi:dollar" action={BAC_LINK} title="Advertise w/ The Loft" />
