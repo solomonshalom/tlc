@@ -1,5 +1,5 @@
-import { christmasScenes, halloweenScenes, sceneMap, scenes } from '$data/scenes';
-import { christmasStations, halloweenStations, stationList, stationMap } from '$data/stations';
+import { christmasScenes, sceneMap, scenes } from '$data/scenes';
+import { christmasStations, stationList, stationMap } from '$data/stations';
 import { draw } from 'radash';
 import { get } from 'svelte/store';
 
@@ -8,14 +8,6 @@ import { type Station } from './types';
 
 const jazzStations = stationList.filter(({ genre }) => genre === 'jazz') as Station[];
 const lofiStations = stationList.filter(({ genre }) => genre === 'lofi') as Station[];
-
-export function getSpooky() {
-	const scene = draw(halloweenScenes)!;
-	const track = draw(halloweenStations)!;
-
-	currentScene.set(scene);
-	currentStation.set(track);
-}
 
 export function getXmas() {
 	const scene = draw(christmasScenes)!;

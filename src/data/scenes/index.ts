@@ -7,7 +7,6 @@ import asia from './asia';
 import europe from './europe';
 import northAmerica from './north-america';
 import australia from './oceania';
-import redacted from './redacted';
 import southAmerica from './south-america';
 
 function flattenScenes(scenes: (Scene | SceneGroup)[], country: string) {
@@ -59,15 +58,13 @@ function deepSort<T extends Continent | Scene | SceneGroup>(list: T): T {
 }
 
 const continents: Continent[] = alphabetical(
-	[redacted, africa, asia, australia, europe, northAmerica, southAmerica],
+	[africa, asia, australia, europe, northAmerica, southAmerica],
 	({ name }) => name
 ).map(deepSort);
 
 const sceneMap = getSceneMap(continents);
 
 const scenes: Scene[] = Object.values(sceneMap);
-
-const halloweenScenes = scenes.filter((scene) => scene.tags?.includes(Tags.halloween));
 
 const christmasScenes = scenes.filter((scene) => scene.tags?.includes(Tags.christmas));
 
@@ -79,6 +76,5 @@ export {
 	visibleScenes as scenes,
 	visibleContinents as continents,
 	sceneMap,
-	halloweenScenes,
 	christmasScenes
 };

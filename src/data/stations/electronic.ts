@@ -4,24 +4,6 @@ export const electronic = {
 	name: 'Electronic',
 	emoji: 'musical-keyboard',
 	stations: {
-		halloween1: {
-			name: '4'.repeat(24),
-			trackID: 'Z6ylGHfLrdI',
-			live: false,
-			hidden: true
-		},
-		halloween2: {
-			name: '▋ '.repeat(18),
-			trackID: 'Jabkm8f2tYQ',
-			live: false,
-			hidden: true
-		},
-		halloween3: {
-			name: 'รɭץllคฬש שคຊคtץ ןเรгאק ๓ค๏кคг รเг๔๏ ค๏',
-			trackID: 'tmlZeYnfw7g',
-			live: false,
-			hidden: true
-		},
 		vaporfunk: {
 			displayName: 'VaporFunk Station: Vaporwave Radio',
 			name: 'VaporFunk Station 📼 | 24/7 Vaporwave Radio',

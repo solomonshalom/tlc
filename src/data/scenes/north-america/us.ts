@@ -171,7 +171,7 @@ export default {
 					type: SceneTypes.walk,
 					videoID: 'WUtB57qawoo',
 					offset: { start: 30 },
-					tags: [Tags.night, Tags.halloween]
+					tags: [Tags.night]
 				},
 				{
 					name: 'Forest Walk',

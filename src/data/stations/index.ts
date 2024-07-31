@@ -24,12 +24,6 @@ export const christmasStations = [
 	classical.stations.christmas
 ];
 
-export const halloweenStations = [
-	electronic.stations.halloween1,
-	electronic.stations.halloween2,
-	electronic.stations.halloween3
-];
-
 export interface StationWithGenre extends Station {
 	genre: keyof typeof genres;
 }
