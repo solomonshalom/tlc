@@ -1,19 +1,11 @@
 <script lang="ts">
-	import { BAC_LINK, IS_DECEMBER, IS_OCTOBER } from '$lib/constants';
-	import { getSpooky, getXmas } from '$lib/utils';
+	import { BAC_LINK, IS_DECEMBER} from '$lib/constants';
+	import { getXmas } from '$lib/utils';
 
 	import ToolbarButton from './ToolbarButton.svelte';
 </script>
 
-{#if IS_OCTOBER}
-	<ToolbarButton
-		class="text-orange-200 !opacity-100"
-		variant="full"
-		icon="mdi:ghost"
-		action={getSpooky}
-		title="Get Spooky"
-	/>
-{:else if IS_DECEMBER}
+{#i IS_DECEMBER}
 	<ToolbarButton
 		class="text-green-200 !opacity-100"
 		variant="full"

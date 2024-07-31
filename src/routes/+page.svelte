@@ -9,7 +9,7 @@
 	import { setupHeartbeat } from '$lib/heartbeat';
 	import { setupHotkeys } from '$lib/hotkeys';
 	import { currentScene, currentStation, hasStarted, isPlaying } from '$lib/stores';
-	import { decodeSharableURL, getSpooky, getXmas, goToRandomSceneWithMusic } from '$lib/utils';
+	import { decodeSharableURL, getXmas, goToRandomSceneWithMusic } from '$lib/utils';
 	import { onMount } from 'svelte';
 	import { fade, fly, scale } from 'svelte/transition';
 
