@@ -22,6 +22,7 @@ export const random = {
 	emoji: 'guitar',
 	stations: {
 		'randomtrack': {
+			displayName: 'A Random Track',
 			name: 'Random Track',
 			trackID: getRandomTrackID(),
 			live: false,
