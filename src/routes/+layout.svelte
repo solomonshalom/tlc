@@ -34,12 +34,12 @@
 		});
 	});
 
-	const siteTitle = 'CityHop';
+	const siteTitle = 'The Loft Cafe';
 
 	const siteDescription =
 		'Take leisurely walks and drives around the world while chilling to lofi music 🎶';
 
-	const siteURL = 'https://www.cityhop.cafe/';
+	const siteURL = 'https://www.tlc.solomonlijo.com';
 
 	const ogImage = `${$page.url.origin}/og.jpg`;
 
@@ -53,7 +53,7 @@
 </svelte:head>
 
 <MetaTags
-	title="CityHop | Aesthetic walks and drives from around the world"
+	title="The Loft Cafe | Aesthetic walks and drives from around the world"
 	description={siteDescription}
 	canonical={siteURL}
 	openGraph={{
@@ -61,7 +61,7 @@
 		title: siteTitle,
 		description: siteDescription,
 		images: [{ url: ogImage }],
-		siteName: 'CityHop'
+		siteName: 'The Loft Cafe'
 	}}
 	twitter={{
 		cardType: 'summary_large_image',

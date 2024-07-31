@@ -16,9 +16,9 @@
 
 		<div class="flex flex-col items-center gap-8">
 			<p>
-				CityHop Cafe is a magical place where you can travel around the world from the comfort of
-				your desk, exploring new cities by foot or by car, all while listening to chill music.
-				Simply sit back and relax.
+				The Loft Cafe is a magical place where you can travel around the world from the comfort of
+				your desk, exploring new cities by foot or by car, all while listening to chill christian music.
+				Simply sit back, praise God, and relax!
 			</p>
 
 			<ul>
@@ -30,7 +30,7 @@
 			<p>Have a city or station you'd like to see on the site?</p>
 
 			<Button
-				action="https://github.com/Nickersoft/cityhop.cafe/issues/new/choose"
+				action="https://github.com/solomonshalom/tlc/issues/new/choose"
 				icon="mdi:hand-back-left"
 			>
 				Open a Request</Button
@@ -39,7 +39,7 @@
 			<p class="text-sm italic">
 				Psst... feel free to
 				<a
-					href="https://twitter.com/tylernickerson"
+					href="https://twitter.com/shalomlijo"
 					rel="noreferrer"
 					target="_blank"
 					class="text-accent"
@@ -49,7 +49,7 @@
 				or
 				<a
 					class="text-accent"
-					href="https://github.com/Nickersoft/cityhop.cafe"
+					href="https://github.com/solomonshalom/tlc"
 					rel="noreferrer"
 					target="_blank"
 				>

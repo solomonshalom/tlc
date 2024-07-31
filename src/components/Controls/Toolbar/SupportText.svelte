@@ -14,5 +14,5 @@
 		title="Get Festive"
 	/>
 {:else}
-	<ToolbarButton variant="full" action={BAC_LINK} title="Support CityHop" />
+	<ToolbarButton variant="full" action={BAC_LINK} title="Advertise w/ The Loft" />
 {/if}

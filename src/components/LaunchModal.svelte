@@ -31,13 +31,13 @@
 			<p class="py-4">
 				Hi there! I'm
 				<a
-					href="https://tylernickerson.com"
+					href="https://solomonlijo.com"
 					target="_blank"
 					class="text-accent"
-					rel="noopenner noreferrer">Tyler</a
-				>, the creator CityHop. I just launched a brand-new service called
-				<a href="https://kojo.design" target="_blank" class="text-accent" rel="noopenner noreferrer"
-					>Kojo</a
+					rel="noopenner noreferrer">Solomon</a
+				>, the guy behind TLC. I just launched a brand-new service called
+				<a href="https://zxe.solomonlijo.com" target="_blank" class="text-accent" rel="noopenner noreferrer"
+					>ZXE</a
 				> that gives you unlimited design engineering for a flat monthly fee.
 			</p>
 			<p>
@@ -57,7 +57,7 @@
 				<Button
 					iconPlacement="after"
 					grow
-					action="https://www.producthunt.com/posts/kojo-design"
+					action="#"
 					icon="mdi:arrow-right"
 				>
 					Take me there

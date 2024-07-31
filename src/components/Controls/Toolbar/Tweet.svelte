@@ -15,7 +15,7 @@
 
 		const tweet = `Come ${$currentScene.type} in #${createHashtag(
 			$currentScene.name
-		)} with me and chill! 🎧 #cityhop #${createHashtag(
+		)} with me and chill! 🎧 #theloftcafe #${createHashtag(
 			stationMap[$currentStation.trackID].genre.toLowerCase()
 		)} 
 
