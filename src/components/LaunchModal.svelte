@@ -1,6 +1,6 @@
 <!-- Open the modal using ID.showModal() method -->
 <script lang="ts">
-	import me from '$images/me.jpg';
+	import me from '$images/logo.png';
 	import { onMount } from 'svelte';
 
 	import Button from './Button.svelte';
